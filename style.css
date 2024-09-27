@@ -175,7 +175,7 @@ button:hover {
 #snes-station{
 
     padding-bottom: 8rem;
-
+    margin-top: 21rem;
 }
 
 .botão-introdução-do-video{
@@ -186,13 +186,26 @@ button:hover {
 
 }
 
-#video{
+#mensagem-final{
 
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90rem;
-    margin-bottom: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 4rem 8rem 8rem 8rem;
+}
+
+#mensagem-semi-final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 40rem 8rem 8rem 8rem;
+
+
+    
 }
 
 .bom-terminamos{
